@@ -4,25 +4,17 @@ Repository ini berisi implementasi dua algoritma penting dalam Teori Graf dan Dy
 
 ---
 
-## 📋 Daftar Program
+##  Daftar Program
 
 ### 1. Knight's Tour (knights_tour.py)
 ### 2. Longest Monotonically Increasing Subsequence - LMIS (TGRAF2.py)
 
 ---
 
-## 🐴 Knight's Tour
+##  Knight's Tour
 
 ### Deskripsi
 Program yang menyelesaikan masalah **Knight's Tour** menggunakan **Algoritma Warnsdorff**. Knight's Tour adalah masalah klasik di mana kuda catur harus mengunjungi setiap kotak pada papan catur 8×8 tepat satu kali.
-
-### Fitur
-- ✅ Input posisi awal kuda dengan format `xy` (x=horizontal, y=vertikal)
-- ✅ Visualisasi papan catur ASCII dengan simbol kuda (♘)
-- ✅ Algoritma Warnsdorff untuk menemukan jalur optimal
-- ✅ Deteksi **CLOSED Tour** (kuda dapat kembali ke posisi awal) atau **OPEN Tour**
-- ✅ Visualisasi grafik matplotlib dengan path lengkap
-- ✅ Marker hijau untuk start, merah untuk end
 
 ### Cara Penggunaan
 
@@ -63,13 +55,13 @@ KNIGHT'S TOUR - ALGORITMA WARNSDORFF
 Masukkan posisi awal kuda (xy): 18
 
 ✓ Kuda dimulai dari posisi x=1, y=8
-⏳ Mencari rute Knight's Tour...
+ Mencari rute Knight's Tour...
 
 ✓ Berhasil! Hasil: CLOSED Tour
   Total langkah: 64
   Kuda dapat kembali ke posisi awal!
 
-📊 Menampilkan visualisasi...
+ Menampilkan visualisasi...
 ```
 
 ### Algoritma
@@ -84,16 +76,16 @@ Masukkan posisi awal kuda (xy): 18
 
 ---
 
-## 📊 LMIS - Longest Monotonically Increasing Subsequence
+##  LMIS - Longest Monotonically Increasing Subsequence
 
 ### Deskripsi
 Program yang mencari **subsequence terpanjang yang monoton naik** dari sebuah array menggunakan **Dynamic Programming**.
 
 ### Fitur
-- ✅ Algoritma Dynamic Programming untuk mencari LMIS
-- ✅ Menampilkan subsequence lengkap (bukan hanya panjangnya)
-- ✅ Kompleksitas waktu: O(n²)
-- ✅ Kompleksitas ruang: O(n²)
+-  Algoritma Dynamic Programming untuk mencari LMIS
+-  Menampilkan subsequence lengkap (bukan hanya panjangnya)
+-  Kompleksitas waktu: O(n²)
+-  Kompleksitas ruang: O(n²)
 
 ### Cara Penggunaan
 
@@ -147,7 +139,7 @@ arr = [4, 1, 13, 7, 0, 2, 8, 11, 3]
 
 ---
 
-## 📁 Struktur File
+##  Struktur File
 
 ```
 VSC/
@@ -158,7 +150,7 @@ VSC/
 
 ---
 
-## 🎓 Konsep Teori Graf
+##  Konsep Teori Graf
 
 ### Knight's Tour
 - **Kategori:** Graph Traversal, Hamiltonian Path Problem
@@ -173,7 +165,7 @@ VSC/
 
 ---
 
-## 📝 Catatan
+##  Catatan
 
 ### Knight's Tour
 - Tidak semua posisi awal menghasilkan CLOSED Tour
@@ -183,28 +175,3 @@ VSC/
 ### LMIS
 - Algoritma ini menyimpan subsequence lengkap, bukan hanya panjangnya
 - Untuk array besar, pertimbangkan optimasi ruang dengan hanya menyimpan panjang
-
----
-
-## 👨‍💻 Author
-
-**Tugas Teori Graf**  
-Implementasi Algoritma: Knight's Tour & LMIS
-
----
-
-## 📄 License
-
-Educational Purpose - Free to use and modify
-
----
-
-## 🔗 Referensi
-
-### Knight's Tour
-- [Wikipedia - Knight's Tour](https://en.wikipedia.org/wiki/Knight%27s_tour)
-- [Warnsdorff's Rule](https://en.wikipedia.org/wiki/Knight%27s_tour#Warnsdorff's_rule)
-
-### LMIS/LIS
-- [Wikipedia - Longest Increasing Subsequence](https://en.wikipedia.org/wiki/Longest_increasing_subsequence)
-- Dynamic Programming Fundamentals
